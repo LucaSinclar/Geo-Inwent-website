@@ -1,0 +1,377 @@
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1259px;
+}
+
+.hero-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(49, 41, 41, 0.5);
+}
+
+.hero-text {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;	
+}
+
+.hero-text h1 {
+	margin-bottom: 5px;
+	text-shadow: 3px 3px 5px #000;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 29px;
+}
+
+.section-title {
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 60px 0 20px;
+}
+.hero-text p {
+	font-size: 17px;
+}
+
+.about-us-info {
+	margin-bottom: 10px;
+	padding: 0 20px;
+}
+
+.product {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+.first-product {
+	background-image: url("../img/geodeta.jpg");
+}
+
+.second-product {
+	background-image: url("../img/geodezja.jpg");
+}
+
+.third-product {
+	background-image: url("../img/maps-small.jpg");
+}
+
+.fourth-product {
+	background-image: url("../img/kontakt-hand.jpg");
+}
+
+.products h3 {
+	text-transform: uppercase;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	height: 60px;
+	background-color: #ddd;
+	line-height: 60px;
+	text-align: center;
+}
+
+.header {
+	position: relative;
+	background-image: url("../img/hero-img-small.jpg");
+	height: 310px;
+	background-size: cover;
+	background-position: center;
+}
+
+h3 a {
+	color: white;
+	text-decoration: none;
+}
+
+h3 {
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: -webkit-transform 0.3s;
+	-o-transition: transform 0.3s;
+	transition: transform 0.3s;
+	transition: transform 0.3s, -webkit-transform 0.3s;
+	margin: 10px 0 2px;
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+.cont-bg {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	font-size: 25px;
+}
+
+footer {
+	text-align: center;
+	padding: 30px 10px;
+	background-color: #ddd;
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+.product:hover h3 {
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+section {
+	scroll-margin-top: 80px;
+}
+
+.header-2 {
+	position: relative;
+	background-image: url("../img/geodeta.jpg");
+	height: 310px;
+	background-size: cover;
+	background-position: center;
+}
+
+.about-us-info-2 {
+	margin-bottom: 50px;
+	padding: 0 20px;
+	font-size: 20px;
+}
+
+
+.header-3 {
+	position: relative;
+	background-image: url("../img/geodezja.jpg");
+	height: 310px;
+	background-size: cover;
+	background-position: center;
+}
+
+.header-4 {
+	position: relative;
+	background-image: url("../img/maps-small.jpg");
+	height: 310px;
+	background-size: cover;
+	background-position: center;
+}
+
+.header-5 {
+	position: relative;
+	background-image: url("../img/kontakt-hand.jpg");
+	height: 310px;
+	background-size: cover;
+	background-position: center;
+}
+.cell-phone, .s-gmail {
+	text-decoration: none;
+	color: goldenrod;
+}
+
+.contact p {
+	font-size: 18px;
+}
+
+textarea {
+	position: relative;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+	height: 60px;
+	width: 80%;
+	border: 2px solid goldenrod;
+	-webkit-box-shadow: 0 0 5px goldenrod;
+	box-shadow: 0 0 5px goldenrod;
+}
+
+.btn-cont {
+	display: block;
+	position: relative;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+	width: 20%;
+	height: 40px;
+	cursor: pointer;
+	border: none;
+	background-color: goldenrod;
+	-webkit-box-shadow: 0 0 10px goldenrod;
+	box-shadow: 0 0 10px goldenrod;
+	-webkit-transition: background-color 0.3s, -webkit-box-shadow 0.3s;
+	transition: background-color 0.3s, -webkit-box-shadow 0.3s;
+	-o-transition: background-color 0.3s, box-shadow 0.3s;
+	transition: background-color 0.3s, box-shadow 0.3s;
+	transition: background-color 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-cont:hover {
+	-webkit-box-shadow: 0 0 10px gold;
+	box-shadow: 0 0 10px gold;
+	background-color: gold;
+}
+
+.form-cont {
+	text-align: center;
+}
+
+input {
+	position: relative;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+	width: 80%;
+	height: 30px;
+	display: block;
+	margin: 10px 0;
+	border: 2px solid goldenrod;
+	-webkit-box-shadow: 0 0 5px goldenrod;
+	box-shadow: 0 0 5px goldenrod;
+}
+
+p iframe {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.nav-items a {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 25px;
+	color: #333;
+	font-weight: bold;
+	-webkit-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+@media (min-width: 768px) {
+	.comp-foot {
+		margin-top: 100px;
+	}
+	.head-all {
+		height: 400px;
+	}
+
+	input {
+		height: 40px;
+		width: 70%;
+	}
+
+	textarea {
+		height: 80px;
+		width: 70%;
+	}
+
+	p iframe {
+		height: 500px;
+	}
+
+	.header {
+		background-image: url("../img/hero-img-big.jpg");
+	}
+
+	.header-2 {
+		background-image: url("../img/o-firmie-big'.jpg");
+	}
+
+	.header-3 {
+		background-image: url("../img/geodezja-big.jpg");
+	}
+
+	.header-4 {
+		background-image: url("../img/maps-big.jpg");
+	}
+
+	.header-5 {
+		background-image: url("../img/kontakt-hand-big.jpg");
+	}
+
+	.contact-map {
+		position: relative;
+		left: 650px;
+		bottom: 310px;
+	}
+
+	.hero-text h1 {
+		font-size: 46px;
+	}
+
+	.products h3 {
+		font-size: 32px;
+	}
+	.about-us-info-2, .nav-items a, .about-us-info, .hero-text p {
+		font-size: 22px;
+	}
+
+	.nav-items a {
+		margin: 60px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.hero-text h1 {
+		font-size: 48px;
+	}
+
+	.hero-text p {
+		font-size: 24px;
+	}
+
+	.products h3 {
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.products-box {
+		font-size: 0;
+	}
+	.product {
+		display: inline-block;
+		width: 50%;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	.nav-items a, .about-us-info {
+		font-size: 20px;
+	}
+
+	.product h3 a {
+		font-size: 38px;
+	}
+}
+
+.nav-items a:hover {
+	color: goldenrod;
+}
