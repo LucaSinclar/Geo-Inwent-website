@@ -1,5 +1,4 @@
 * {
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -113,11 +112,7 @@ h3 a {
 }
 
 h3 {
-	-webkit-transition: -webkit-transform 0.3s;
-	transition: -webkit-transform 0.3s;
-	-o-transition: transform 0.3s;
 	transition: transform 0.3s;
-	transition: transform 0.3s, -webkit-transform 0.3s;
 	margin: 10px 0 2px;
 	font-size: 26px;
 	margin-top: 30px;
@@ -141,8 +136,6 @@ footer {
 }
 
 .product:hover h3 {
-	-webkit-transform: scale(1.3);
-	-ms-transform: scale(1.3);
 	transform: scale(1.3);
 }
 
@@ -200,13 +193,10 @@ section {
 textarea {
 	position: relative;
 	left: 50%;
-	-webkit-transform: translate(-50%);
-	-ms-transform: translate(-50%);
 	transform: translate(-50%);
 	height: 60px;
 	width: 80%;
 	border: 2px solid goldenrod;
-	-webkit-box-shadow: 0 0 5px goldenrod;
 	box-shadow: 0 0 5px goldenrod;
 }
 
@@ -214,25 +204,17 @@ textarea {
 	display: block;
 	position: relative;
 	left: 50%;
-	-webkit-transform: translate(-50%);
-	-ms-transform: translate(-50%);
 	transform: translate(-50%);
 	width: 20%;
 	height: 40px;
 	cursor: pointer;
 	border: none;
 	background-color: goldenrod;
-	-webkit-box-shadow: 0 0 10px goldenrod;
 	box-shadow: 0 0 10px goldenrod;
-	-webkit-transition: background-color 0.3s, -webkit-box-shadow 0.3s;
-	transition: background-color 0.3s, -webkit-box-shadow 0.3s;
-	-o-transition: background-color 0.3s, box-shadow 0.3s;
 	transition: background-color 0.3s, box-shadow 0.3s;
-	transition: background-color 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
 }
 
 .btn-cont:hover {
-	-webkit-box-shadow: 0 0 10px gold;
 	box-shadow: 0 0 10px gold;
 	background-color: gold;
 }
@@ -244,15 +226,12 @@ textarea {
 input {
 	position: relative;
 	left: 50%;
-	-webkit-transform: translate(-50%);
-	-ms-transform: translate(-50%);
 	transform: translate(-50%);
 	width: 80%;
 	height: 30px;
 	display: block;
 	margin: 10px 0;
 	border: 2px solid goldenrod;
-	-webkit-box-shadow: 0 0 5px goldenrod;
 	box-shadow: 0 0 5px goldenrod;
 }
 
@@ -267,8 +246,6 @@ p iframe {
 	margin: 25px;
 	color: #333;
 	font-weight: bold;
-	-webkit-transition: color 0.3s;
-	-o-transition: color 0.3s;
 	transition: color 0.3s;
 }
 
